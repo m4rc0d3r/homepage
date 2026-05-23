@@ -1,10 +1,275 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8" >
     <title>Résumé</title>
+    <link rel="stylesheet" href="styles.css" >
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <main>
+      <div class="resume">
+        <div class="container">
+          <div class="resume__block">
+            <h1 class="contact-info__header">Mark Diuzhev</h1>
+            <h2 class="contact-info__sub-header">Full-Stack Developer</h2>
+
+            <div class="contact_info_container">
+              <div class="contact-info__block">
+                <a
+                  href="https://www.google.com/maps/place/%D0%9E%D0%B4%D0%B5%D1%81%D0%B0,+%D0%9E%D0%B4%D0%B5%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+65000/@46.4600902,30.5469817,11z/data=!3m1!4b1!4m6!3m5!1s0x40c6318a0b864c43:0x129f8fe28cf2176c!8m2!3d46.4845702!4d30.7326047!16zL20vMGZmbXA?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 384 512"
+                    >
+                      <path
+                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192
+        0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535
+        13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817
+        80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span>Odesa, Ukraine</span>
+                </a>
+              </div>
+
+              <div class="contact-info__block contact-info__block--center">
+                <img
+                  class="contact-info__avatar"
+                  src="assets/avatar.png"
+                  alt="Avatar"
+                >
+              </div>
+
+              <div class="contact-info__block">
+                <a
+                  href="mailto:m4rc0d3r@gmail.com"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-mail-icon lucide-mail"
+                    >
+                      <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" />
+                      <rect x="2" y="4" width="20" height="16" rx="2" />
+                    </svg>
+                  </div>
+                  <span>Email</span>
+                </a>
+                <a
+                  href="https://github.com/m4rc0d3r"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-git-merge-icon lucide-git-merge"
+                    >
+                      <circle cx="18" cy="18" r="3" />
+                      <circle cx="6" cy="6" r="3" />
+                      <path d="M6 21V9a9 9 0 0 0 9 9" />
+                    </svg>
+                  </div>
+                  <span>GitHub</span>
+                </a>
+                <a
+                  href="https://www.codewars.com/users/eliteProjer"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-code-icon lucide-code"
+                    >
+                      <path d="m16 18 6-6-6-6" />
+                      <path d="m8 6-6 6 6 6" />
+                    </svg>
+                  </div>
+                  <span>Codewars</span>
+                </a>
+              </div>
+            </div>
+            <div class="container">
+              <div class="resume__block">
+                <div class="intro">
+                  <div class="intro__icon-wrapper">
+                    <svg
+                      class="intro__icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7
+            24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0
+            26.5 21.5 48 48 48h128c26.5 0 48-21.5
+            48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64
+            64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6
+            32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5
+            48-48V304c0-26.5-21.5-48-48-48z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="intro_text">
+                    I am a web developer working with modern technologies. I
+                    enjoy designing application architectures, finding simple
+                    and efficient solutions, and writing clean, readable, and
+                    maintainable code. I am focused on applying best practices,
+                    learning new technologies and approaches, and improving my
+                    development workflow with better tools and processes.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="resume__block">
+            <div class="skills">
+              <h3 class="skills__header">Skills</h3>
+              <div class="skills__content">
+                <p class="skills__text">
+                  Problem solving & simplification, Code quality &
+                  maintainability, Continuous learning & exploration
+                </p>
+                <p class="skills__text">
+                  JavaScript/TypeScript, Node.js, pnpm, Git, GitHub, GitLab,
+                  React, TanStack Start, SQL, Tailwind CSS, REST API, Docker
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="resume__block">
+            <div class="main-info fh">
+              <div class="experiences">
+                <h3 class="experiences__header">Experience</h3>
+                <div class="experiences__company">
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability"
+                      >June 2025 – November 2025</span
+                    >
+
+                    <h3 class="experiences__company-header-name">Freelance</h3>
+                  </div>
+
+                  <div class="experiences__company-project">
+                    <span class="experiences__company-project-role"
+                      >Frontend Developer</span
+                    >
+                    <h3 class="experiences__company-project-name">
+                      Moving company website
+                    </h3>
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>Architecture</li>
+                      <li>Development</li>
+                      <li>Interaction with the backend</li>
+                      <li>Code maintenance</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="additional-info fv">
+                <div class="additional-info__education">
+                  <h3 class="additional-info__education-header">Education</h3>
+                  <div class="additional-info__education-university">
+                    <span
+                      class="additional-info__education-university-durability"
+                      >2021-2024</span
+                    >
+                    <h3
+                      class="additional-info__education-university-speciality"
+                    >
+                      Computer Science
+                    </h3>
+                    <p class="additional-info__education-university-name">
+                      Kharkiv National University of Radio Electronics
+                    </p>
+                  </div>
+                </div>
+
+                <div class="additional-info__education">
+                  <h3 class="additional-info__education-header">Courses</h3>
+                  <div class="additional-info__education-university">
+                    <span
+                      class="additional-info__education-university-durability"
+                      >March 2023 – May 2023</span
+                    >
+                    <h3
+                      class="additional-info__education-university-speciality"
+                    >
+                      C++ Developer
+                    </h3>
+                    <p class="additional-info__education-university-name">
+                      CHI IT Academy
+                    </p>
+                  </div>
+
+                  <div class="additional-info__education-university">
+                    <span
+                      class="additional-info__education-university-durability"
+                      >April 2023 – July 2023</span
+                    >
+                    <h3
+                      class="additional-info__education-university-speciality"
+                    >
+                      Cryptography
+                    </h3>
+                    <p class="additional-info__education-university-name">
+                      Distributed Lab
+                    </p>
+                  </div>
+                </div>
+
+                <div class="additional-info__languages">
+                  <h3 class="additional-info__languages-header">Languages</h3>
+                  <p class="additional-info__languages-item">
+                    English (intermediate)
+                  </p>
+                  <p class="additional-info__languages-item">
+                    Ukrainian (advanced)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
