@@ -61,7 +61,7 @@ body {
   gap: 128px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (width <= 576px) {
   .skills__content {
     grid-template-columns: 1fr;
     gap: 16px;
