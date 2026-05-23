@@ -48,14 +48,32 @@ body {
   margin-bottom: 15px;
 }
 
+.contact_info_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  margin-bottom: 15px;
+}
+
+.skills__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 128px;
+}
+
 @media screen and (max-width: 576px) {
+  .skills__content {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
   .main-info,
   .contact_info_container {
     flex-direction: column;
   }
 
   .contact_info_container {
-    align-items: center;
+    grid-template-columns: 1fr;
   }
 
   .contact-info__block:not(:last-child) {
@@ -110,6 +128,7 @@ body {
   width: 20px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .contact-info__item-icon path {
@@ -228,6 +247,10 @@ body {
   color: var(--secondary-text-color);
   text-align: left;
   margin-bottom: 20px;
+}
+
+.additional-info__education-university {
+  margin-top: 15px;
 }
 
 .additional-info__education-university-durability {
